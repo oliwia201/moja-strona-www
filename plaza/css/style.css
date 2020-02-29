@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+div {
+    position: fixed;
+}
+
+.sea{
+    bottom: 0;
+    left: 0;
+    right:0;
+    height: 100px;
+    background-color: rgb(4, 54, 160);
+    z-index: 3;
+    }
+
+.sand{
+    bottom: 0;
+    left: 0;
+    right:0;
+    height: 200px;
+    background-color: rgb(207, 179, 22);
+    z-index: 1;
+    }
+
+.grass{
+    bottom: 200px;
+    left: 0;
+    right:0;
+    height: 200px;
+    background-image: url(../grass.svg);
+    z-index: 10;
+    }
+
+    .moon{
+        width:200px;
+        height:200px;
+        background-color: rgb(239, 243, 181); 
+        border-radius: 50%; 
+        left: 50px;
+        top: 5vw;
+        z-index: 2;
+    }
+
+    .moonhide{
+        width: 200px;
+        height: 200px;
+        background-color: white; 
+        border-radius: 50%; 
+        left: 90px;
+        top: 3vw;
+        z-index: 2;
+    }
