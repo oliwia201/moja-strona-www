@@ -1,0 +1,63 @@
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    margin: 20px;
+}
+
+
+.colors {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#btn {
+    width: 50px;
+    height: 50px;
+    border: solid black;
+    border-radius: 50px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.red {
+    background-color: rgba(250, 2, 2, 0.733);
+}
+
+.maritime {
+    background-color: rgba(14, 236, 207, 0.733);
+}
+
+.bright-green {
+    background-color: rgba(21, 255, 0, 0.733);
+}
+
+.purple {
+    background-color: rgb(250, 2, 229);
+}
+
+.blue {
+    background-color: rgba(27, 0, 182, 0.897);
+}
+
+.pink {
+    background-color: rgba(255, 0, 170, 0.897);
+}
